@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    color: #FFC108;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.intro h1 {
+    font-size: 40px;
+}
+
+.intro p {
+    margin: 20px 0;
+    color: #979797;
+    font-size: 19px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.intro .more-info {
+    
+    border: 1px solid #FFC108;
+    padding: 5px 10px; 
+    font-size: 17px;
+    background-color: white;
+    margin-right: 5px;
+    
+}
+
+.intro .contact-us {
+    padding: 5px 10px; 
+    font-size: 17px;
+    background-color: #FFC108;
+    color: white;
+    border: 1px solid #FFC108;
+    
+}
+
+.img .landing {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about h1 {
+    font-size: 33px;
+}
+
+.about p {
+    margin: 20px 0;
+    color: #979797;
+    font-size: 19px;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience h1 {
+    margin: 20px 20px;
+}
+
+.experts div {
+    width: 55px;
+    height: 10px;
+    background-color: #FFC108;
+    margin: 0 auto;
+
+}
+
+.clients div {
+    width: 55px;
+    height: 10px;
+    background-color: #FFC108;
+    margin: 0 auto;
+
+}
+
+.projects div {
+    width: 55px;
+    height: 10px;
+    background-color: #FFC108;
+    margin: 0 auto;
+
+}
+
+.experts, .clients, .projects {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience span {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.service .contact-us {
+    padding: 5px 10px; 
+    font-size: 17px;
+    background-color: #FFC108;
+    color: white;
+    border: 1px solid #FFC108;
+    
+}
+
+.service-title h1 {
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+
+.service-title p{
+    margin: 20px 0;
+    color: #979797;
+    font-size: 19px;
+}
+
+.service-our {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.service-our h1{
+    margin: 20px 20px;
+}
+
+.service-our p{
+    margin: 40px 20px;
+    color: #979797;
+}
+
+.web-application, .uiux-design, .mobile-application {
+    box-shadow: 2px 4px 4px grey;
+}
+
+.contact {
+    margin-top: 80px;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.contact h1{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.contact p {
+    color: #979797;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    align-items: center;
+}
+
+.input-group h1 {
+    text-align: center;
+}
+
+.input-group {
+    width: 450px;
+    padding: 40px 20px;
+    border: 2px solid #FFC108;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+    margin-top: 32px;
+    grid-template-areas:    "name subject"
+                            "email phone"
+                            "message message"
+                            "submit submit";
+}
+
+#input-name {
+    grid-area: name;
+}
+
+#input-subject {
+    grid-area: subject;
+}
+
+#input-email {
+    grid-area: email;
+}
+
+#input-phone {
+    grid-area: phone;
+}
+
+#input-message {
+    grid-area: message;
+}
+
+#submit {
+    grid-area: submit;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.input label {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.input button {
+    height: 25px;
+    background-color: #FFC108;
+    color: white;
+    border: none;
+}
+
+.maps {
+    margin: 30px 0;
+}
+
+.maps iframe {
+    max-width: 500px;
+    max-height: 350px;
+
+}
+
+.footer {
+    background-color: #FFC108;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-i p{
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-i h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.footer li {
+    display: inline-block;
+}
+@media only screen and (max-width:600px){
+    .navbar .logo{
+        display: none;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+    }
+
+    .intro p {
+        font-size: 15px;
+    }
+
+    .img {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    .intro .more-info {
+        padding: 4px 9px;
+        font-size: 15px;
+    }
+
+    .intro .contact-us {
+        padding: 4px 9px;
+        font-size: 15px;
+    }
+
+    .about img{
+        width: 300px;
+        margin-top: 25px;
+        order: 1;
+    }
+
+    .about-company h1{
+        font-size: 27px;
+    }
+
+    .about-company p {
+        font-size: 15px;
+    }
+
+    .about-company span {
+        font-size: 20px;
+    }
+
+    .service {
+        flex-wrap: wrap;
+    }
+
+    .service-title h1 {
+        font-size: 22px;
+    }
+
+    .service-title p {
+        font-size: 16px;
+    }
+
+    .web-application, .uiux-design, .mobile-application {
+        margin-bottom: 30px;
+    }
+
+    .maps iframe {
+        width: 400px;
+    }
+
+    .footer-i {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
